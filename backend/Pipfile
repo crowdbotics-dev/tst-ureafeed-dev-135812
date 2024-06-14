@@ -36,3 +36,4 @@ dj-rest-auth = "==5.0.2"
 azure-keyvault-secrets = "~=4.8.0"
 azure-identity = "~=1.16.0"
 cb-camera = {editable = true, path = "./modules/camera"}
+cb-django-push-notifications = {editable = true, path = "./modules/django_push_notifications"}

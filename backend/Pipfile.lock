@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4d249afbc9bb06f26bfe805ed584e9f82212954be910ab26cf3cec8848a853f8"
+            "sha256": "7b3dfe21e4995e1b4eafafa883fc939905b135b7f325121a07fcb11a381d3907"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -91,6 +91,10 @@
         "cb-camera": {
             "editable": true,
             "path": "./modules/camera"
+        },
+        "cb-django-push-notifications": {
+            "editable": true,
+            "path": "./modules/django_push_notifications"
         },
         "certifi": {
             "hashes": [
@@ -551,7 +555,6 @@
             "version": "==2.7.1"
         },
         "googleapis-common-protos": {
-            "extras": [],
             "hashes": [
                 "sha256:0e1c2cdfcbc354b76e4a211a35ea35d6926a835cba1377073c4861db904a1877",
                 "sha256:c6442f7a0a6b2a80369457d79e6672bb7dcbaab88e0848302497e3ec80780a6a"
@@ -1159,7 +1162,6 @@
             "version": "==0.5.0"
         },
         "tablib": {
-            "extras": [],
             "hashes": [
                 "sha256:9821caa9eca6062ff7299fa645e737aecff982e6b2b42046928a6413c8dabfd9",
                 "sha256:f6661dfc45e1d4f51fa8a6239f9c8349380859a5bfaa73280645f046d6c96e33"
